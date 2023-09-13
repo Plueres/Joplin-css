@@ -1,0 +1,45 @@
+yes:before {
+    background: rgba(0, 140, 40, 0.5);
+    padding: 5px 12px;
+    color: white;
+    border-radius: 15px;
+    content: "Yes";
+}
+
+no:before {
+    background: rgba(200, 0, 0, 0.5);
+    padding: 5px 12px;
+    color: white;
+    border-radius: 15px;
+    content: "No";
+}
+
+tag {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+notStarted:before {
+    background: rgba(200, 0, 0, 0.2);
+    padding: 5px 12px;
+    color: rgba(150, 0, 0, 0.7);
+    border-radius: 15px;
+    content: "●  Not Started";
+}
+
+done:before {
+    background: rgba(0, 150, 50, 0.2);
+    padding: 5px 12px;
+    color: rgba(0, 100, 0, 0.7);
+    border-radius: 15px;
+    content: "●  Done";
+}
+
+inProgress:before {
+    background: rgba(50, 50, 150, 0.2);
+    padding: 5px 12px;
+    color: rgba(50, 50, 100, 0.7);
+    border-radius: 15px;
+    content: "●  In Progress";
+}
